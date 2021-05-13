@@ -5,9 +5,7 @@ public class HeavyCavalry extends MilitaryUnit {
     private int countDoDamage;
 
     public HeavyCavalry() {
-        super.armor = true;
-        super.damage = 20;
-        super.hitPoints = 150;
+        super(150, 20, true);
     }
 
     @Override

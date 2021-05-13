@@ -6,6 +6,12 @@ public abstract class MilitaryUnit {
     protected int damage;
     protected boolean armor;
 
+    public MilitaryUnit(int hitPoints, int damage, boolean armor) {
+        this.hitPoints = hitPoints;
+        this.damage = damage;
+        this.armor = armor;
+    }
+
     public int getHitPoints() {
         return hitPoints;
     }

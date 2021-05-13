@@ -6,9 +6,7 @@ public class Swordsman extends MilitaryUnit {
     private int stroke;
 
     public Swordsman(boolean armor) {
-        super.armor = armor;
-        super.damage = 10;
-        super.hitPoints = 100;
+        super(100, 10, armor);
         shield = true;
     }
 
